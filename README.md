@@ -4,3 +4,6 @@
 ```
 find . -type f -name "*.vue" -exec sh -c 'sed -n "/<template>/,/<\/template>/p" "{}" > "html/$(basename "{}" .vue).html"' \;
 ```
+
+## なににつかうの？
+Webサイトのコンテンツを翻訳業者様に入稿するときなどに役に立ちます。
